@@ -26,6 +26,16 @@ python manage.py runserver
 ![2024-12-19_19-06-02](https://github.com/user-attachments/assets/9c503b1d-ffa4-4120-a3c0-81aed664fecd)
 У списка сотрудников есть кнопка добавить ![2024-12-19_19-08-26](https://github.com/user-attachments/assets/6935b455-113c-43ee-9ba4-b5eb45f75976)
  нажав её вы перехродите в форму добавления
+ ![2024-12-19_19-18-36](https://github.com/user-attachments/assets/4615e317-8eb0-4791-8ed0-98764d598bc5)
+ при правильнро заполненной форме выйдет сообщение
+![2024-12-19_19-23-29](https://github.com/user-attachments/assets/9a28388a-8192-42c9-9b55-bca64f49fcf6)
+при нажатии вернуться возщвращаемся к списку
+![2024-12-19_19-25-40](https://github.com/user-attachments/assets/b0e1cf87-123a-4639-ba45-f9b20cdc7423)
+сотрудника можно отредактировать нажам на ![image](https://github.com/user-attachments/assets/6d674df8-9777-400b-a3ad-ce9e2e954d93)
+
+
+
+
 
 
 Доступ администратора:
