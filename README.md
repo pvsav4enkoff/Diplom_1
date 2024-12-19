@@ -47,6 +47,23 @@ python manage.py runserver
 по кнопке ![2024-12-19_19-08-26](https://github.com/user-attachments/assets/13022891-e3f0-462e-b24a-1c24d5f703a4)
   можно добавить новый ремонт
 
+  ![2024-12-19_20-12-50](https://github.com/user-attachments/assets/7fab3893-2acf-40e5-950a-535f3de8d808)
+
+  при успешном внесении данных выйдет сообщение
+
+  ![2024-12-19_20-14-01](https://github.com/user-attachments/assets/781fbe79-befc-4fc6-85a1-62e2a60830ab)
+
+"Вернуться" возвращяемся к списку ремонтов
+
+![2024-12-19_20-16-42](https://github.com/user-attachments/assets/67e46b15-9d19-467f-8565-cde02745948b)
+
+самый последний ремонт в верхнем списке и у него пока нет исполнителей
+
+
+
+
+
+
 
 
 
