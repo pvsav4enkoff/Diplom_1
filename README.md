@@ -21,6 +21,11 @@ python manage.py runserver
 ![2024-12-19_18-59-03](https://github.com/user-attachments/assets/5de6a580-8769-43ef-9337-f521dc2d7163)
 нажмите на  http://127.0.0.1:8000/ 
 откроется приложение
+![2024-12-19_19-03-21](https://github.com/user-attachments/assets/ff5982f6-434b-4517-8f36-c34b3721366f)
+Первы пункт меню "Сотрудники"
+![2024-12-19_19-06-02](https://github.com/user-attachments/assets/9c503b1d-ffa4-4120-a3c0-81aed664fecd)
+У списка сотрудников есть кнопка добавить ![2024-12-19_19-08-26](https://github.com/user-attachments/assets/6935b455-113c-43ee-9ba4-b5eb45f75976)
+ нажав её вы перехродите в форму добавления
 
 
 Доступ администратора:
