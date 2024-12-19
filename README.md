@@ -31,7 +31,28 @@ python manage.py runserver
 ![2024-12-19_19-23-29](https://github.com/user-attachments/assets/9a28388a-8192-42c9-9b55-bca64f49fcf6)
 при нажатии вернуться возщвращаемся к списку
 ![2024-12-19_19-25-40](https://github.com/user-attachments/assets/b0e1cf87-123a-4639-ba45-f9b20cdc7423)
-сотрудника можно отредактировать нажам на ![image](https://github.com/user-attachments/assets/6d674df8-9777-400b-a3ad-ce9e2e954d93)
+сотрудника можно отредактировать нажам на ![2024-12-19_19-27-08](https://github.com/user-attachments/assets/23db12b9-c1cf-4506-8f29-ad188ac84d4a)
+![2024-12-19_19-40-15](https://github.com/user-attachments/assets/69563a8c-aafe-4a85-81e3-4d905d3e7177)
+при изменении нажать "Сохранить"
+Выйдя в главное меню нажмите "Площадки" это перечень производственных площадок на которых требуется ремонт.
+![2024-12-19_19-49-00](https://github.com/user-attachments/assets/56fa0780-dd2b-4278-9aae-e0269637d65f)
+нажав на кнопку ![2024-12-19_19-08-26](https://github.com/user-attachments/assets/644bb6ec-af57-46f8-9871-b56a4be68fce) можно добавить площадку 
+![2024-12-19_19-58-42](https://github.com/user-attachments/assets/39ef94d9-fbc3-442c-8cea-c0d395d1e281)
+при успешном вводе выйдет сообщение
+![image](https://github.com/user-attachments/assets/f98f22b7-4156-41f0-9985-833190667834)
+"Вернуться" возвращяемся к списку
+![2024-12-19_20-03-03](https://github.com/user-attachments/assets/6f7c36a0-1c15-42ef-ad28-56dc4c5d6902)
+В главном меню нажимаем "Участки" и выходим к списку ремонтов и их исполнителей
+![2024-12-19_20-07-21](https://github.com/user-attachments/assets/22f4cee0-5740-4da5-9962-dfffa823a2b4)
+по кнопке ![2024-12-19_19-08-26](https://github.com/user-attachments/assets/13022891-e3f0-462e-b24a-1c24d5f703a4)
+  можно добавить новый ремонт
+
+
+
+
+
+
+
 
 
 
