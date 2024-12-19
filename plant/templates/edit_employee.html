@@ -11,7 +11,7 @@
   <label for="position">Введите должность:</label>
   <select id="position" name="position">
     {% for p in positions %}
-    <option value="{{ p }}" {% if p|lower== position|lower %} selected {% endif %}>{{ p }}</option>
+    <option value="{{ p }}" {% if p|lower == position|lower %} selected {% endif %}>{{ p }}</option>
     {% endfor %}
   </select>
   <br>
@@ -28,7 +28,7 @@
   <label for="brigade">Введите бригаду:</label>
   <select id="brigade" name="brigade">
     {% for b, c in brigades_all %}
-    <option value="{{ b }}" {% if b== selected_brigade %} selected {% endif %}> {{ c }}</option>
+    <option value="{{ b }}" {% if b == selected_brigade %} selected {% endif %}> {{ c }}</option>
     {% endfor %}
   </select>
   <br>
