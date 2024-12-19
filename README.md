@@ -16,8 +16,9 @@ tzdata==2024.2
 Импортировать openpyxl и datetime
 pip install openpyxl
 pip install datetime
-Приложение запускается командой:
-python manage.py runserver
+Приложение запускается командой: python manage.py runserver
+
+
 ![2024-12-19_18-59-03](https://github.com/user-attachments/assets/5de6a580-8769-43ef-9337-f521dc2d7163)
 нажмите на  http://127.0.0.1:8000/ 
 откроется приложение
