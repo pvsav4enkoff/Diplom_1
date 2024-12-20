@@ -10,7 +10,8 @@
 {% endif %}
 <form method="post">
     {% csrf_token %}
-    <label for="location">Площадка: </label>
+    <h3>Создать площадку</h3>
+    <label for="location">Объект: </label>
     <select id="location" name="location">
         {% for i,n in locations %}
         <option value="{{ i }}">{{ n }}</option>
