@@ -12,10 +12,12 @@ tzdata==2024.2
 
 Чтобы проект работал нужно:
 Установить Django: pip install django
+
 ![2024-12-19_18-51-25](https://github.com/user-attachments/assets/022b7ad7-3653-4ce1-bc98-60495474e5d2)
 Импортировать openpyxl и datetime
 pip install openpyxl
 pip install datetime
+
 Приложение запускается командой: python manage.py runserver
 
 
