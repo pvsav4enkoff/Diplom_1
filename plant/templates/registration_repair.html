@@ -10,6 +10,7 @@
 {% endif %}
 <form method="post">
   {% csrf_token %}
+    <h3>Создать ремонт</h3>
   <label for="equipment">Площадка:  </label>
       <select id="equipment" name="equipment">
     {% for a,b in eq %}
