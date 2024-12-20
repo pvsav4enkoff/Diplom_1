@@ -19,7 +19,7 @@ def verify_admin_password(password):
     admin_user = admin_users.first()
     return check_password(password, admin_user.password)
 
-
+# Завершение ремонта
 def complete_repair(request, pk):
     info = {}
     error = None
@@ -53,7 +53,7 @@ def complete_repair(request, pk):
     info = {'repair': repair, 'form': form, 'error': error}
     return render(request, 'complete_repair.html', info)
 
-
+# Завершение задачи
 def complete_task(request, pk):
     info = {}
     error = None
@@ -92,7 +92,7 @@ def complete_task(request, pk):
 
     info = {'task': task, 'form': form, 'error': error}
     return render(request, 'complete_task.html', info)
-
+# Экспорт Excel
 def export_to_excel_task(request):
     # Создаем новый workbook
     wb = Workbook()
@@ -129,13 +129,13 @@ def export_to_excel_task(request):
 
     return response
 
-
+# Просмотр главной страницы
 def view_plant(request):
     header = "Учет регламентных работ и ремонта. "
     context = {'header': header}
     return render(request, 'plant.html', context)
 
-
+# Просмотр списка сотрудников
 def view_plant_employee(request):
     header = "Работники"
     # employee = Employee.objects.all().order_by('id')
@@ -153,7 +153,7 @@ def view_plant_employee(request):
     context = {'header': header, 'page_post': page_posts, 'column_headers': column_headers}
     return render(request, 'employee.html', context)
 
-
+# Просмотр списка ремонтов
 def view_plant_repair(request):
     header = "Участки"
     sort_by = request.GET.get('sort_by', 'id')  # параметр сортировки
@@ -208,7 +208,7 @@ def sort_view(request):
     # print(f'{order}{sort_by}')
     return Task.objects.order_by(f'{order}{sort_by}')
 
-
+# Просмотр задач
 def view_plant_task(request):
     header = "Задачи ремонта"
 
@@ -247,7 +247,7 @@ def view_plant_task(request):
     context['column_headers'] = column_headers
     return render(request, 'task.html', context)
 
-
+# Просмотр списка площадок
 def view_plant_equipment(request):
     header = "Площадки завода"
     equipment = Equipment.objects.select_related('segment').prefetch_related('location').all().order_by('id')
@@ -265,7 +265,7 @@ def view_plant_equipment(request):
     context['column_headers'] = column_headers
     return render(request, 'equipment.html', context)
 
-
+# Регистрация сотрудника
 def sign_up_by_plant(request):
     error = None
     brigades = []
@@ -302,7 +302,7 @@ def sign_up_by_plant(request):
     info['form'] = form
     return render(request, 'registration_page.html', info)
 
-
+# Регистрация площадки
 def registration_equipment(request):
     error = None
     locations_id = []
@@ -357,7 +357,7 @@ def registration_equipment(request):
     info['form'] = form
     return render(request, 'registration_equipment.html', info)
 
-
+# Регистрация ремонта
 def registration_repair(request):
     error = None
     brigades_id = []
@@ -421,7 +421,7 @@ def registration_repair(request):
     info['form'] = form
     return render(request, 'registration_repair.html', info)
 
-
+# Регистрация задачи
 def registration_task(request):
     error = None
     status = ['В работе', 'Завершен']
@@ -501,7 +501,7 @@ def delete_post(request, pk):
         post.delete()
         return redirect('employee.html')
 
-
+# Редактирование данных сотрудника
 def edit_employee(request, pk):
     error = None
     brigades = []
