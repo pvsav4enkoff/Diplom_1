@@ -115,4 +115,21 @@ pip install datetime
 
 ![2024-12-19_21-31-54](https://github.com/user-attachments/assets/42078244-530f-4a34-a6d8-2974ba597741)
 
+Шаблоны страниц
+
+meunu.html - базовый шаблон
+employee.html - список сотрудников
+regictration_page.html - регистрация сотрудника
+edit_employee.html - редактирование сотрудника
+equipment.html - список площадок
+registration_equipment.html - регистрация площадки
+repair.html - список объектов для ремонта
+registration_repair.html - регистрация ремонта
+complete_repair.html - завершение ремонта
+task.html - список задач ремонта
+registration_task.html - назначение исполнителя на площадку ремонта
+complect_task.html - завершение задачи исполнителя ремонта
+
+
+
 
