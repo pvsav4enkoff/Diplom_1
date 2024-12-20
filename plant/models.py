@@ -30,7 +30,7 @@ class Employee(models.Model):
     class Meta:
         verbose_name = "Сотрудник"
         verbose_name_plural = "Сотрудники"
-
+# Дложности
 class Position(models.Model):
     name = models.CharField(max_length=50)
     def __str__(self):
@@ -38,6 +38,7 @@ class Position(models.Model):
     class Meta:
         verbose_name = "Должность"
         verbose_name_plural = "Должности"
+# Локации на площадке        
 class LocationZone(models.Model):
     zone_location = models.CharField(max_length=25)
     class Meta:
@@ -45,6 +46,7 @@ class LocationZone(models.Model):
         verbose_name_plural = "Локализации"
     def __str__(self):
         return self.zone_location
+# Сегменты
 class Segment(models.Model):
     name = models.CharField(max_length=125)
     class Meta:
@@ -52,6 +54,7 @@ class Segment(models.Model):
         verbose_name_plural = "Сегменты"
     def __str__(self):
         return self.name
+# Объектв ремонта
 class Task_Object(models.Model):
     name = models.CharField(max_length=125)
     class Meta:
